@@ -1,0 +1,38 @@
+body {
+    font-family: 'Segoe UI', Tahoma;
+    background-color: #434343;
+    color: #FFF;
+}
+
+body h1 {
+    text-align: center;
+}
+#head {
+    text-align: center;
+    color: #FFF;
+    background-color: #333;
+    padding: 20px;
+    border: 2px solid #c5b2b2;
+    border-radius: 18px;
+}
+.content {
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    gap: 15px;
+}
+
+.card {
+    background-color: #333;
+    color: aliceblue;
+    padding: 20px;
+    margin: 5px;
+    border: 2px solid #c5b2b2;
+    border-radius: 18px;
+}
+
+#footer{
+    font-size: 14px;
+    text-align: center;
+    color: black;
+}
