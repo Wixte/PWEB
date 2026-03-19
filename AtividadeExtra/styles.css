@@ -1,0 +1,56 @@
+body {
+    font-family: 'Segoe UI', Tahoma;
+    color: #111;
+    background-image: url(/img/prefeitura-sorocaba.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#head {
+    text-align: center;
+    color: green;
+}
+
+.content {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card {
+    background-color: #FFF;
+    color: #111;
+    padding: 5px;
+    margin: 5px auto;
+    border: 2px solid #c5b2b2;
+    width: 30%;
+}
+
+.card h2 {
+    margin-bottom: 15px;
+    border-bottom: 2px dotted green;
+}
+
+.card-2 {
+    display: flex;
+    gap: 15px;
+}
+
+.card-2 img {
+    height: 140px;
+    width: 140px;
+    padding: 2px;
+    border: 2px solid green;
+}
+
+.card-2 p {
+    flex: 1;
+}
+
+.rodape {
+    text-align: center;
+    color: black;
+    font-size: 14px;
+}
