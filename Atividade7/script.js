@@ -15,7 +15,7 @@ if (escolhaJogador == "1") {
 
 alert("Você selecionou " + escolhaJogador + " " + opcao);
 
-resultadoComputador = Math.random() / 3;
+resultadoComputador = Math.random();
 
 if (resultadoComputador <= 0.33) {
   resultadoComputador = "1";
